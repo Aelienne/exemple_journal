@@ -29,3 +29,17 @@ CREATE TABLE `utilisateur` (
     UNIQUE KEY `utilisateur_id_uindex` (`id`),
     UNIQUE KEY `utilisateur_login_uindex` (`username`)
 ) ENGINE = InnoDB DEFAULT CHARSET = latin1;
+
+INSERT INTO
+    `utilisateur` (
+        `username`,
+        `nom`,
+        `prenom`,
+        `password`
+    )
+VALUES (
+        'jose',
+        'bove',
+        'jose',
+        '$2y$10$4XkN4nd5J6afG5fxmfcQq.N.yIoTtfgkXDDr8SueYQMTMFoyEq5cW'
+    )
