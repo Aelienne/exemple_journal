@@ -1,0 +1,1 @@
+<!-- Ceci sera un bouton pour accéder à l'annonce entièrement avec plus de détails. -->
